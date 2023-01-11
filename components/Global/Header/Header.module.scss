@@ -1,0 +1,38 @@
+@use '../../../styles/constants.scss';
+
+.main_header{
+    display: flex;
+
+    justify-content: space-around;
+    margin: 1.5rem 0;
+    a {
+        text-decoration: none;
+        color: inherit;
+        &:hover{
+            color: rgba(256, 256, 256, 0.8)
+        }
+    }
+}
+
+.main_nav{
+    ul{
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+    }
+    li{
+        display: inline-block;
+        margin: 0 1rem;
+        font-weight: 500;
+        // a:hover {
+        //     border-width: 4px;
+        //     border-bottom-style: solid;
+        //     border-image: constants.$primary_color;
+        // }
+    }
+}
+
+.main_brand{
+    font-weight: bold;
+    letter-spacing: 2px;
+}

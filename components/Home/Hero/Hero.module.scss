@@ -1,0 +1,15 @@
+@use '../../../styles/constants.scss';
+
+.hero{
+    padding: constants.$section_padding;
+    display: flex;
+}
+.hero_cta {
+    text-align: left;
+    padding: 0 constants.$section_padding;
+    flex: 2;
+    display: flex;
+    p{
+        color: #bbbfc5;
+    }
+}

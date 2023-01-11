@@ -1,0 +1,22 @@
+@use '../../../styles/constants.scss';
+
+
+.features_section{
+    padding: constants.$section_padding;
+    background-color: constants.$background_secondary;
+    
+    width: 100%;
+    text-align: center;
+  
+}
+
+.features{
+    display: flex;
+    gap: 2rem;
+}
+
+.feature{
+    padding: .5rem;
+    background: #010616;
+    border-radius: 1rem;
+}

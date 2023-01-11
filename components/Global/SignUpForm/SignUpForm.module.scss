@@ -1,0 +1,20 @@
+.form_container{
+    flex: 1;
+    padding: 1rem;
+    border-radius: 1rem;
+    background:  #11172B;
+   display: flex;
+   flex-direction: column;
+   align-self: flex-start;
+}
+
+.form{
+   width: 90%;
+   align-self: center;
+}
+
+.input_name {
+    display: inline;
+  
+}
+

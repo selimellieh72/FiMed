@@ -1,0 +1,32 @@
+@use 'constants';
+
+.form_control{
+    outline: none;
+    border: none;
+    color: black;
+    font-family: inherit;
+    transition: background 0.2s ease-in-out;
+    background: rgba(255, 255, 255, 0.8);
+
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    // border-width: 3px;
+    // border-color: red;
+    // border-style:solid ;
+    &:focus{
+        background: white;
+    }
+}
+
+.form_group{
+    display: flex;
+    margin: 0;
+    gap: 5%;
+    margin: 1rem 0;
+    .form_control {
+        margin: 0;
+    }
+}

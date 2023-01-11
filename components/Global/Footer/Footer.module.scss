@@ -1,0 +1,8 @@
+@use '../../../styles/constants.scss';
+
+.main_footer{
+    padding: constants.$section_padding;
+    display: grid;
+    place-items: center;
+}
+

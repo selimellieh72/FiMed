@@ -1,0 +1,28 @@
+@use 'constants';
+
+#btn{
+    border: none;
+    outline: none;
+    color: inherit;
+    font-family: inherit;
+    text-align: center;
+    padding: .5rem;
+    border-radius: .5rem;
+    &:hover{
+        cursor: pointer;
+        opacity: 0.9;
+    }
+}
+
+
+.btn_primary{
+    @extend #btn;
+ 
+    background-image: constants.$primary_color;
+}
+
+.btn_primary_block{
+    @extend .btn_primary;
+    display: block;
+    width: 100%;
+}
